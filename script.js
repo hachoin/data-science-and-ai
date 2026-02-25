@@ -46,7 +46,7 @@ const aiCoursesData = [
 ];
 
 const dsCoursesData = [
-  {title:"Data Science Foundations", level:"Beginner", duration:"8 Weeks", price:"$1000", image:"https://images.unsplash.com/photo-1551288049-bebda4e38f71"},
+  {title:"Data Science with Python", level:"Beginner", duration:"8 Weeks", price:"$1000", image:"data-science-with-python-course.png"},
   {title:"Python for Data Science", level:"Beginner", duration:"6 Weeks", price:"$900", image:"https://images.unsplash.com/photo-1526379095098-d400fd0bf935"},
   {title:"SQL Mastery", level:"Intermediate", duration:"6 Weeks", price:"$950", image:"https://images.unsplash.com/photo-1544383835-bda2bc66a55d"},
   {title:"Statistics for DS", level:"Intermediate", duration:"8 Weeks", price:"$1100", image:"https://images.unsplash.com/photo-1509228468518-180dd4864904"},
@@ -221,6 +221,7 @@ function createCard(course){
 
   </div>`;
 }
+
 
 
 
