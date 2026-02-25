@@ -48,7 +48,7 @@ const aiCoursesData = [
 const dsCoursesData = [
   {title:"Data Science with Python Course", level:"Beginner", duration:"8 Weeks", price:"$1000", image:"data-science-with-python-course.png"},
   {title:"Data Science with Python & ML Course", level:"Beginner", duration:"6 Weeks", price:"$900", image:"data-science-with-python-ML.png"},
-
+  {title:"SQL with Python Course", level:"Beginner", duration:"6 Weeks", price:"$900", image:"sql-with-python.png"},
 
 ];
 
@@ -211,6 +211,7 @@ function createCard(course){
 
   </div>`;
 }
+
 
 
 
