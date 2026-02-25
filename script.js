@@ -41,7 +41,7 @@ const aiCoursesData = [
   {title:"Agentic AI Course", level:"Beginner", duration:"8 Weeks", price:"$1300", image:"agentic-ai-course.png"},
   {title:"Generative AI Course", level:"Advanced", duration:"10 Weeks", price:"$1700", image:"generative-ai-course.png"},
   {title:"GenAI with Python", level:"Intermediate", duration:"9 Weeks", price:"$1600", image:"GenAI-with-Python-course.png"},
-  {title:"AI Capstone Project", level:"Advanced", duration:"8 Weeks", price:"$2100", image:"https://images.unsplash.com/photo-1534751516642-a1af1ef26a56"}
+  {title:"Large Language Module", level:"Advanced", duration:"8 Weeks", price:"$2100", image:"llm-course.png"}
 
 ];
 
@@ -221,6 +221,7 @@ function createCard(course){
 
   </div>`;
 }
+
 
 
 
