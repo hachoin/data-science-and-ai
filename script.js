@@ -5,7 +5,7 @@ for(let i=1;i<=10;i++){
 aiCourses.innerHTML+=`<div class="course-card">
 <h3>AI Course ${i}</h3>
 <p>Duration: 6 Months</p>
-<p>Price: $1,499</p>
+<p>Students: $1,499</p>
 </div>`;
 }
 
@@ -212,6 +212,7 @@ function createCard(course){
 
   </div>`;
 }
+
 
 
 
