@@ -32,24 +32,24 @@ answer.style.display=answer.style.display==="block"?"none":"block";
 });
 
 const aiCoursesData = [
-    {title:"Artificial Intelligence Course", level:"Beginner-Advance", duration:"8 Weeks", price:"10%", image:"artificial-intelligence-course.png"},
-  {title:"Machine Learning Course", level:"Beginner-Advance", duration:"10 Weeks", price:"10%", image:"machine-learning-course.png"},
-  {title:"AI Healthcare Course", level:"Beginner-Advance", duration:"12 Weeks", price:"10%", image:"ai-healthcare-course.png"},
-  {title:"ChatGpt Course", level:"Beginner-Advance", duration:"10 Weeks", price:"10%", image:"chatgpt-course.png"},
-  {title:"MLOps Course", level:"Beginner-Advance", duration:"6 Weeks", price:"10%", image:"mlops-course.png"},
-  {title:"NLP Course", level:"Beginner-Advance", duration:"12 Weeks", price:"10%", image:"nature-language-processing.png"},
-  {title:"Agentic AI Course", level:"Beginner-Advance", duration:"8 Weeks", price:"10%", image:"agentic-ai-course.png"},
-  {title:"Generative AI Course", level:"Beginner-Advance", duration:"10 Weeks", price:"10%", image:"generative-ai-course.png"},
-  {title:"GenAI with Python", level:"Beginner-Advance", duration:"9 Weeks", price:"10%", image:"GenAI-with-Python-course.png"},
-  {title:"Large Language Module", level:"Beginner-Advance", duration:"8 Weeks", price:"10%", image:"llm-course.png"}
+    {title:"Artificial Intelligence Course", level:"Beginner-Advance", duration:"8 Weeks", price:"$300", image:"artificial-intelligence-course.png"},
+  {title:"Machine Learning Course", level:"Beginner-Advance", duration:"10 Weeks", price:"$380", image:"machine-learning-course.png"},
+  {title:"AI Healthcare Course", level:"Beginner-Advance", duration:"12 Weeks", price:"$300", image:"ai-healthcare-course.png"},
+  {title:"ChatGpt Course", level:"Beginner-Advance", duration:"10 Weeks", price:"$300", image:"chatgpt-course.png"},
+  {title:"MLOps Course", level:"Beginner-Advance", duration:"6 Weeks", price:"$350", image:"mlops-course.png"},
+  {title:"NLP Course", level:"Beginner-Advance", duration:"12 Weeks", price:"$280", image:"nature-language-processing.png"},
+  {title:"Agentic AI Course", level:"Beginner-Advance", duration:"8 Weeks", price:"$300", image:"agentic-ai-course.png"},
+  {title:"Generative AI Course", level:"Beginner-Advance", duration:"10 Weeks", price:"$300", image:"generative-ai-course.png"},
+  {title:"GenAI with Python", level:"Beginner-Advance", duration:"9 Weeks", price:"$380", image:"GenAI-with-Python-course.png"},
+  {title:"Large Language Module", level:"Beginner-Advance", duration:"8 Weeks", price:"$320", image:"llm-course.png"}
 
 ];
 
 const dsCoursesData = [
-  {title:"Data Science with Python Course", level:"Beginner-Advance", duration:"8 Weeks", price:"10%", image:"data-science-with-python-course.png"},
-  {title:"Data Science with Python & ML Course", level:"Beginner-Advance", duration:"6 Weeks", price:"10%", image:"data-science-with-python-ML.png"},
-  {title:"SQL with Python Course", level:"Beginner-Advance", duration:"6 Weeks", price:"10%", image:"sql-with-python.png"},
-  {title:"PL/SQL Course", level:"Beginner-Advance", duration:"6 Weeks", price:"10%", image:"pl-sql-course-online.png"},
+  {title:"Data Science with Python Course", level:"Beginner-Advance", duration:"8 Weeks", price:"$350", image:"data-science-with-python-course.png"},
+  {title:"Data Science with Python & ML Course", level:"Beginner-Advance", duration:"6 Weeks", price:"$320", image:"data-science-with-python-ML.png"},
+  {title:"SQL with Python Course", level:"Beginner-Advance", duration:"6 Weeks", price:"$300", image:"sql-with-python.png"},
+  {title:"PL/SQL Course", level:"Beginner-Advance", duration:"6 Weeks", price:"$300", image:"pl-sql-course-online.png"},
 
 ];
 
@@ -212,6 +212,7 @@ function createCard(course){
 
   </div>`;
 }
+
 
 
 
