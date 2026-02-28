@@ -323,17 +323,45 @@
           <h3>🎓 Speak With Career Advisor</h3>
           <p>Get personalized guidance & program details.</p>
 
-          <form>
-            <input type="text" placeholder="Full Name" required>
-            <input type="email" placeholder="Email Address" required>
-            <input type="tel" placeholder="Phone Number" required>
-            <select required>
-              <option value="">Select Program</option>
-              <option>Artificial Intelligence</option>
-              <option>Data Science</option>
-            </select>
-            <button type="submit">Request Callback</button>
-          </form>
+             <form action="https://formspree.io/f/xdalodnq" method="POST">
+      <input type="text" name="name" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email Address" required>
+      <input type="tel" name="phone" placeholder="Phone / WhatsApp Number" required>
+
+      <select name="country" required>
+        <option value="">Select Country</option>
+        <option>United States</option>
+        <option>Canada</option>
+        <option>United Kingdom</option>
+        <option>Australia</option>
+        <option>India</option>
+        <option>Germany</option>
+        <option>UAE</option>
+        <option>Singapore</option>
+        <option>Other</option>
+      </select>
+
+      <textarea name="message" rows="4" placeholder="Your Message"></textarea>
+
+		   <div class="human-check">
+  <label>
+    <input type="checkbox" id="humanCheck">
+    I am not a robot
+  </label>
+
+  <div class="math-verify">
+    <span id="mathQuestion"></span>
+    <input type="number" id="mathAnswer" placeholder="Your Answer">
+  </div>
+
+  <p id="errorMsg" style="color:red; display:none;">Please verify you are human.</p>
+</div>
+
+
+    <button type="submit">Submit Enquiry</button>
+
+     
+    </form>
         </div>
       </div>
 
@@ -354,6 +382,7 @@
 <script src="script.js"></script>
 </body>
 </html>
+
 
 
 
