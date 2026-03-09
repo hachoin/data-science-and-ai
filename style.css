@@ -1276,5 +1276,12 @@ height:250px;
 }
 
 
+.logo img {
+  height: 40px;   /* adjust based on your design */
+  width: auto;
+  display: block;
+}
+
+
 
 
