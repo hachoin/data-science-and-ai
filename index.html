@@ -330,8 +330,27 @@
 <a href="https://wa.me/1234567890" class="whatsapp">💬</a>
 
 <script src="script.js"></script>
+
+  <script>
+
+const form = document.getElementById("servicenowForm");
+const thankYou = document.getElementById("servicenowThankYou");
+
+form.addEventListener("submit", function(){
+
+setTimeout(function(){
+
+form.style.display="none";
+thankYou.style.display="block";
+
+},1200);
+
+});
+
+</script>
 </body>
 </html>
+
 
 
 
