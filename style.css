@@ -1184,6 +1184,72 @@ cursor:pointer;
 width:100%;
 }
 
+.enroll-container{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:40px;
+margin-top:40px;
+}
+
+/* LEFT IMAGE */
+.enroll-left{
+width:50%;
+}
+
+.enroll-left img{
+width:100%;
+border-radius:10px;
+}
+
+/* RIGHT FORM */
+.form-section{
+width:50%;
+background:#fff;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+/* FORM ROW */
+.form-row{
+display:flex;
+gap:10px;
+margin-bottom:15px;
+}
+
+.form-row input{
+flex:1;
+padding:12px;
+border:1px solid #ddd;
+border-radius:6px;
+}
+
+/* BUTTON */
+.submit-btn{
+width:100%;
+padding:14px;
+background:#00a1e0;
+color:white;
+border:none;
+border-radius:6px;
+font-size:16px;
+cursor:pointer;
+}
+
+/* MOBILE RESPONSIVE */
+@media(max-width:768px){
+
+.enroll-container{
+flex-direction:column;
+}
+
+.enroll-left,
+.form-section{
+width:100%;
+}
+
+}
 
 
 
