@@ -1185,50 +1185,62 @@ width:100%;
 }
 
 
-.enroll-container{
+.servicenow-enroll-section{
+padding:60px 20px;
+background:#f5f7fb;
+}
+
+.servicenow-enroll-container{
 display:flex;
-align-items:center;
-justify-content:center;
-gap:40px;
-margin-top:40px;
+max-width:1100px;
+margin:auto;
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 10px 30px rgba(0,0,0,0.1);
 }
 
 /* LEFT IMAGE */
-.enroll-left{
+.servicenow-image{
 width:50%;
 }
 
-.enroll-left img{
+.servicenow-image img{
 width:100%;
-border-radius:10px;
+height:100%;
+object-fit:cover;
+display:block;
 }
 
 /* RIGHT FORM */
-.form-section{
+.servicenow-form-box{
 width:50%;
-background:#fff;
-padding:30px;
-border-radius:10px;
-box-shadow:0 5px 20px rgba(0,0,0,0.08);
+padding:40px;
 }
 
-/* FORM ROW */
-.form-row{
+.servicenow-form-box h2{
+margin-bottom:10px;
+}
+
+.servicenow-form-box p{
+margin-bottom:20px;
+color:#555;
+}
+
+.servicenow-form-box form{
 display:flex;
-gap:10px;
-margin-bottom:15px;
+flex-direction:column;
+gap:12px;
 }
 
-.form-row input{
-flex:1;
+.servicenow-form-box input{
 padding:12px;
 border:1px solid #ddd;
 border-radius:6px;
+font-size:14px;
 }
 
-/* BUTTON */
-.submit-btn{
-width:100%;
+.servicenow-form-box button{
 padding:14px;
 background:#00a1e0;
 color:white;
@@ -1238,19 +1250,31 @@ font-size:16px;
 cursor:pointer;
 }
 
-/* MOBILE RESPONSIVE */
+/* THANK YOU MESSAGE */
+#servicenowThankYou{
+text-align:center;
+padding:30px;
+color:#2e7d32;
+}
+
+/* MOBILE */
 @media(max-width:768px){
 
-.enroll-container{
+.servicenow-enroll-container{
 flex-direction:column;
 }
 
-.enroll-left,
-.form-section{
+.servicenow-image,
+.servicenow-form-box{
 width:100%;
 }
 
+.servicenow-image{
+height:250px;
 }
+
+}
+
 
 
 
