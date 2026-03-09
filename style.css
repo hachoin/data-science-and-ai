@@ -1121,6 +1121,70 @@ img {
 }
 
 
+.enroll-container{
+display:flex;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.course-info{
+flex:1;
+background:#f7f9fc;
+padding:25px;
+border-radius:10px;
+}
+
+.form-section{
+flex:1;
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+
+.course-logo{
+width:120px;
+margin-bottom:10px;
+}
+
+.salary{
+font-size:28px;
+font-weight:bold;
+color:#0070f3;
+}
+
+.course-points{
+margin-top:15px;
+}
+
+.course-points li{
+margin-bottom:8px;
+}
+
+.form-row{
+display:flex;
+gap:10px;
+margin-bottom:12px;
+}
+
+.form-row input{
+flex:1;
+padding:10px;
+border:1px solid #ddd;
+border-radius:5px;
+}
+
+.submit-btn{
+background:#0070f3;
+color:white;
+padding:12px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+width:100%;
+}
+
+
 
 
 
