@@ -1365,3 +1365,72 @@ height:250px;
   opacity: 1;
 }
 
+/* SECTION */
+.learn-section {
+  padding: 70px 0;
+  background: #f7f9fc;
+  text-align: center;
+}
+
+/* TITLE */
+.learn-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+/* FLOW CONTAINER */
+.learn-flow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* STEP CARD */
+.learn-step {
+  background: #fff;
+  padding: 18px 15px;
+  border-radius: 12px;
+  width: 150px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+/* ICON */
+.learn-step .icon img {
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+/* TEXT */
+.learn-step p {
+  font-size: 13px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* ARROW */
+.arrow {
+  font-size: 22px;
+  color: #2f6bff;
+  font-weight: bold;
+}
+
+/* HOVER EFFECT */
+.learn-step:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.1);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .learn-flow {
+    flex-direction: column;
+  }
+
+  .arrow {
+    transform: rotate(90deg);
+  }
+}
