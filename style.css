@@ -1367,19 +1367,20 @@ height:250px;
 
 /* SECTION */
 .learn-section {
-  padding: 70px 0;
-  background: #f7f9fc;
+  padding: 60px 20px;
   text-align: center;
+  background: #f5f7fb;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* TITLE */
 .learn-title {
   font-size: 28px;
   font-weight: 600;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
-/* FLOW CONTAINER */
+/* FLOW LAYOUT */
 .learn-flow {
   display: flex;
   align-items: center;
@@ -1390,16 +1391,16 @@ height:250px;
 
 /* STEP CARD */
 .learn-step {
-  background: #fff;
+  background: #ffffff;
   padding: 18px 15px;
   border-radius: 12px;
   width: 150px;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.05);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
   transition: 0.3s;
 }
 
 /* ICON */
-.learn-step .icon img {
+.learn-step img {
   width: 40px;
   margin-bottom: 10px;
 }
@@ -1407,8 +1408,14 @@ height:250px;
 /* TEXT */
 .learn-step p {
   font-size: 13px;
-  font-weight: 500;
+  margin: 0;
   color: #333;
+}
+
+/* HOVER EFFECT */
+.learn-step:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
 }
 
 /* ARROW */
@@ -1416,12 +1423,6 @@ height:250px;
   font-size: 22px;
   color: #2f6bff;
   font-weight: bold;
-}
-
-/* HOVER EFFECT */
-.learn-step:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 25px rgba(0,0,0,0.1);
 }
 
 /* RESPONSIVE */
