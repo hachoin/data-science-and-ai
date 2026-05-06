@@ -1435,3 +1435,88 @@ height:250px;
     transform: rotate(90deg);
   }
 }
+
+
+/* Section Styling */
+.ai-projects {
+  background: linear-gradient(135deg, #071a3d, #0c2a66);
+  padding: 60px 20px;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Title */
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+/* Grid Layout */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+/* Card */
+.project-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s ease;
+  backdrop-filter: blur(6px);
+}
+
+/* Hover Effect */
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* Image */
+.project-card img {
+  width: 100%;
+  height: auto;
+  max-height: 140px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+/* Text */
+.project-card p {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .section-title {
+    font-size: 22px;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card {
+    padding: 16px;
+  }
+}
