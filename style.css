@@ -1282,86 +1282,86 @@ height:250px;
   display: block;
 }
 
-/* WHY SECTION */
-.why-section {
-  padding: 80px 0;
-  background: linear-gradient(180deg, #0b1a2f, #08111f);
-  color: #fff;
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f5f7fb;
 }
 
-.section-header {
+/* SECTION */
+.why-clean {
+  padding: 70px 0;
   text-align: center;
-  margin-bottom: 50px;
 }
 
-.section-header h2 {
-  font-size: 34px;
-  font-weight: 700;
+/* TITLE */
+.title {
+  font-size: 28px;
+  margin-bottom: 40px;
+  font-weight: 600;
 }
 
-.section-header p {
-  color: #9fb3c8;
-  margin-top: 10px;
+.title span {
+  color: #2f6bff;
 }
 
 /* GRID */
-.why-grid {
+.why-row {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 25px;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
 }
 
 /* CARD */
-.why-card {
-  background: #112240;
-  padding: 30px 20px;
-  border-radius: 16px;
-  text-align: center;
-  transition: all 0.35s ease;
-  position: relative;
-  overflow: hidden;
+.why-box {
+  background: #fff;
+  padding: 25px 18px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  transition: 0.3s;
 }
 
 /* ICON */
-.why-card i {
-  font-size: 36px;
-  color: #ff6b00;
+.why-box img {
+  width: 45px;
   margin-bottom: 15px;
 }
 
 /* TITLE */
-.why-card h3 {
-  font-size: 18px;
+.why-box h4 {
+  font-size: 16px;
   margin-bottom: 10px;
 }
 
 /* TEXT */
-.why-card p {
-  font-size: 14px;
-  color: #cbd5e1;
+.why-box p {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.5;
 }
 
-/* HOVER EFFECT */
-.why-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+/* HOVER */
+.why-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
 }
 
-/* GLOW EFFECT */
-.why-card::before {
-  content: "";
-  position: absolute;
-  width: 120%;
-  height: 120%;
-  top: -50%;
-  left: -50%;
-  background: radial-gradient(circle, rgba(255,107,0,0.15), transparent);
-  opacity: 0;
-  transition: 0.4s;
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+  .why-row {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
-.why-card:hover::before {
-  opacity: 1;
+@media (max-width: 768px) {
+  .why-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .why-row {
+    grid-template-columns: 1fr;
+  }
 }
 
 
