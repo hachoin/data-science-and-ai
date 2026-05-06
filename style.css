@@ -1522,3 +1522,86 @@ height:250px;
     padding: 16px;
   }
 }
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f7fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.course-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  max-width: 420px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: 0.3s;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+}
+
+h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: #1a1a1a;
+}
+
+.description {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.trainer {
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.rating span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.rating p {
+  font-size: 13px;
+  color: #777;
+  margin: 5px 0 20px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.stat {
+  background: #f1f4ff;
+  padding: 10px;
+  border-radius: 10px;
+  flex: 1;
+  font-size: 13px;
+}
+
+.stat p {
+  margin: 5px 0 0;
+}
+
+/* 📱 Mobile Responsive */
+@media (max-width: 480px) {
+  .course-card {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .stats {
+    flex-direction: column;
+  }
+}
