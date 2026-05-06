@@ -83,7 +83,7 @@ th,td{border:1px solid #ddd;padding:15px;text-align:center;}
 }
 
 .logo-item img{
-  height:28px;
+  height:50px;
   opacity:0.6;
   transition:all 0.3s ease;
   filter:grayscale(100%);
