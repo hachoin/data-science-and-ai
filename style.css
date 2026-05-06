@@ -20,7 +20,7 @@ body{background:#f9fafb;color:#1f2937;}
 .hero span{color:#2563eb;}
 .cta-group{margin-top:20px;display:flex;gap:15px;}
 
-.lead-box{background:#f3f4f6;padding:30px;border-radius:10px;}
+.lead-box{background:#f3f4f6;padding:7px;border-radius:10px;}
 .lead-box input{width:100%;padding:10px;margin:10px 0;}
 .lead-box button{width:100%;padding:12px;background:#2563eb;color:white;border:none;}
 
