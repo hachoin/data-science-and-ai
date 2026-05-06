@@ -1282,6 +1282,86 @@ height:250px;
   display: block;
 }
 
+/* WHY SECTION */
+.why-section {
+  padding: 80px 0;
+  background: linear-gradient(180deg, #0b1a2f, #08111f);
+  color: #fff;
+}
 
+.section-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-header h2 {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.section-header p {
+  color: #9fb3c8;
+  margin-top: 10px;
+}
+
+/* GRID */
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+/* CARD */
+.why-card {
+  background: #112240;
+  padding: 30px 20px;
+  border-radius: 16px;
+  text-align: center;
+  transition: all 0.35s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+/* ICON */
+.why-card i {
+  font-size: 36px;
+  color: #ff6b00;
+  margin-bottom: 15px;
+}
+
+/* TITLE */
+.why-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* TEXT */
+.why-card p {
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+/* HOVER EFFECT */
+.why-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+}
+
+/* GLOW EFFECT */
+.why-card::before {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  top: -50%;
+  left: -50%;
+  background: radial-gradient(circle, rgba(255,107,0,0.15), transparent);
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.why-card:hover::before {
+  opacity: 1;
+}
 
 
