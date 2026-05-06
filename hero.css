@@ -1,0 +1,157 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HERO SECTION */
+.hx-hero {
+  background: linear-gradient(135deg, #f5f7ff, #eef1ff);
+  padding: 60px 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* CONTAINER */
+.hx-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* LEFT SIDE (60%) */
+.hx-left {
+  flex: 0 0 60%;
+}
+
+.hx-left h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+  color: #111;
+}
+
+.hx-subtext {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.hx-trainer {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.hx-rating {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.hx-rating span {
+  color: #777;
+  margin-left: 5px;
+}
+
+/* STATS */
+.hx-stats {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+.hx-stats div {
+  background: #ffffff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 14px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* BUTTONS */
+.hx-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.hx-btn-primary {
+  background: #4f46e5;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.hx-btn-primary:hover {
+  background: #3730a3;
+}
+
+.hx-btn-secondary {
+  border: 1px solid #4f46e5;
+  color: #4f46e5;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.hx-btn-secondary:hover {
+  background: #4f46e5;
+  color: #fff;
+}
+
+/* RIGHT SIDE (40%) */
+.hx-right {
+  flex: 0 0 40%;
+  text-align: center;
+}
+
+.hx-right img {
+  width: 100%;
+  max-width: 500px;
+}
+
+/* 📱 RESPONSIVE */
+@media (max-width: 992px) {
+  .hx-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hx-left,
+  .hx-right {
+    flex: 100%;
+  }
+
+  .hx-left h1 {
+    font-size: 32px;
+  }
+
+  .hx-stats {
+    justify-content: center;
+  }
+
+  .hx-buttons {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .hx-left h1 {
+    font-size: 26px;
+  }
+
+  .hx-subtext {
+    font-size: 14px;
+  }
+
+  .hx-stats div {
+    font-size: 12px;
+  }
+}
